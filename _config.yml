@@ -18,14 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Makiyu Pharma Note 
-email: your-email@example.com
+title: Makiyu Pharma Note
+# email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
- 薬剤師の業務で得た知識や、勉強した内容をまとめるノートです
+  薬剤師の業務で得た知識や、勉強した内容をまとめるノートです
 baseurl: "/sasaki-pharma-note"
 url: "https://makiyu-milo.github.io"
-twitter_username: jekyllrb
-github_username: jekyll
+# twitter_username: jekyllrb
+github_username: makiyu-milo
 
 # Build settings
 theme: minima

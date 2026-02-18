@@ -4,15 +4,15 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+はじめまして、薬剤師のMakiyuです。
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+総合病院のICU（集中治療室）で病棟業務などを担当しています。
+このサイトでは、日々の業務で学んだことや、医薬品の備忘録をまとめていきます。
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+### 経歴
 
+- 薬剤師歴：8年目（2026年時点）
+- 専門・興味：集中治療、感染症
+- 趣味：ゴルフ
 
-[jekyll-organization]: https://github.com/jekyll
+ご連絡は [X(Twitter)](https://twitter.com/...) までお願いします。
