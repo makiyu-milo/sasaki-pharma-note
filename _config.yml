@@ -19,9 +19,10 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Makiyu Pharma Note
+author: Makiyu
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  薬剤師の業務で得た知識や、勉強した内容をまとめるノートです
+  急性期・集中治療で役立つ知識のまとめ。
 baseurl: "/sasaki-pharma-note"
 url: "https://makiyu-milo.github.io"
 # twitter_username: jekyllrb
