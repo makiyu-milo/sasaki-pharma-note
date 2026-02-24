@@ -23,10 +23,10 @@ author: Makiyu
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   急性期・集中治療で役立つ知識のまとめ。
-baseurl: "/sasaki-pharma-note"
-url: "https://makiyu-milo.github.io"
+baseurl: "/makiyu-pharma-note"
+url: "https://makiyu-mio.github.io"
 # twitter_username: jekyllrb
-github_username: makiyu-milo
+github_username: makiyu-mio
 
 # Build settings
 theme: minima
