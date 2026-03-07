@@ -1,0 +1,27 @@
+---
+---
+
+// 元のデザインを引き継ぐ
+@import "minima";
+
+// ヘッダー部分に画像を設定するカスタムCSS
+.site-header {
+  // 画像を指定
+  background-image: url('{{ "/assets/images/header.png" | relative_url }}');
+
+  // 画像の表示方法を調整（横幅いっぱいに、中央で）
+  background-size: cover;
+  background-position: center;
+
+  // 文字が見やすいように、少し隙間を作る
+  padding: 80px 0;
+
+  // ブログタイトルとナビゲーションの文字を白くして目立たせる
+  .site-title,
+  .site-title:visited {
+    color: white !important;
+  }
+  .site-nav .page-link {
+    color: white !important;
+  }
+}
