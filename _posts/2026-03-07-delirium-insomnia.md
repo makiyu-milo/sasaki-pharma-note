@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "【神経】せん妄・不眠時の薬剤推奨"
+title: "【神経】せん妄・不眠 ※作成中"
 date: 2026-03-07
 categories: 薬剤管理
 ---
