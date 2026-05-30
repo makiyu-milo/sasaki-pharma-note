@@ -25,3 +25,10 @@
     color: white !important;
   }
 }
+
+// テーブルを横スクロール可能にし、セル内の文字を折り返さない
+.post-content table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
