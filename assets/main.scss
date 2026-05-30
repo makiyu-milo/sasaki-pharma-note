@@ -26,13 +26,14 @@
   }
 }
 
-// テーブルを横スクロール可能にし、セル内の文字を折り返さない
+// テーブルを画面幅に合わせて伸縮させる
 .post-content table {
-  display: block;
-  overflow-x: auto;
+  width: 100%;
+  table-layout: auto;
 }
 
 .post-content table td,
 .post-content table th {
-  white-space: nowrap;
+  word-break: normal;
+  overflow-wrap: break-word;
 }
