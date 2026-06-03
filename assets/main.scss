@@ -16,13 +16,28 @@
   // 文字が見やすいように、少し隙間を作る
   padding: 80px 0;
 
-  // ブログタイトルとナビゲーションの文字を白くして目立たせる
+  // ブログタイトルとナビゲーションの文字を白くして目立たせる（PC）
   .site-title,
   .site-title:visited {
     color: white !important;
   }
   .site-nav .page-link {
     color: white !important;
+  }
+}
+
+// スマホのナビゲーション修正
+@media screen and (max-width: 600px) {
+  .site-header .site-nav {
+    // ハンバーガーアイコン（三本線）を暗い色で見えるように
+    .menu-icon > svg {
+      fill: #424242;
+      path { fill: inherit; }
+    }
+    // ドロップダウン展開時のリンク文字を暗い色に（白背景のため）
+    .page-link {
+      color: #424242 !important;
+    }
   }
 }
 
