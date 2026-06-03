@@ -27,6 +27,11 @@ baseurl: "/makiyu-pharma-note"
 url: "https://makiyu-mio.github.io"
 # twitter_username: jekyllrb
 github_username: makiyu-mio
+header_pages:
+  - about.markdown
+    - fluid-therapy.md
+      - pk.md
+        - iyakuhinshuu.html
 
 # Build settings
 theme: minima
