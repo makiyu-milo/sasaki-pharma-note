@@ -28,16 +28,19 @@
 
 // スマホのナビゲーション修正
 @media screen and (max-width: 600px) {
-  .site-header .site-nav {
-    // ハンバーガーアイコン（三本線）を暗い色で見えるように
-    .menu-icon > svg {
-      fill: #424242;
-      path { fill: inherit; }
-    }
-    // ドロップダウン展開時のリンク文字を暗い色に（白背景のため）
-    .page-link {
-      color: #424242 !important;
-    }
+  // ハンバーガーアイコン（三本線）を見えるように
+  .site-nav .menu-icon > svg,
+  .site-nav .menu-icon > svg path {
+    fill: #424242 !important;
+  }
+  // ドロップダウンのリンク文字を暗い色に（白背景のため）
+  .site-nav .page-link,
+  .site-header .site-nav .page-link {
+    color: #333333 !important;
+  }
+  // ナビ背景を白に
+  .site-nav {
+    background-color: #ffffff !important;
   }
 }
 

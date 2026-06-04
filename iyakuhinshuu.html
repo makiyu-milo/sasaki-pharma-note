@@ -1,22 +1,8 @@
 ---
-layout: none
+layout: page
 title: 医薬品集
 permalink: /iyakuhinshuu/
 ---
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>医薬品集</title>
-<!-- PWA / iOS ホーム画面対応 -->
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="医薬品集">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="theme-color" content="#1a3a6b">
-<!-- アイコン（SVGをbase64で埋め込み） -->
-<link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48cmVjdCB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgcng9IjI0IiBmaWxsPSIjMWEzYTZiIi8+PHRleHQgeD0iNjAiIHk9Ijc4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjY0IiBmb250LWZhbWlseT0iQXBwbGUgQ29sb3IgRW1vamksc2Fucy1zZXJpZiI+8J+TlzwvdGV4dD48L3N2Zz4=">
 <style>
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent;}
 body{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic UI",sans-serif;background:#f0f3f8;color:#1a1a2e;min-height:100vh;padding-bottom:env(safe-area-inset-bottom);}
@@ -121,8 +107,6 @@ main{padding:10px 10px 100px;}
 /* フッター */
 footer{position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:1px solid #dde4f0;padding:6px 16px calc(6px + env(safe-area-inset-bottom));text-align:center;font-size:10px;color:#bbb;}
 </style>
-</head>
-<body>
 
 <header>
   <div class="header-top">
@@ -471,5 +455,3 @@ document.getElementById('totalBadge').textContent = DRUGS.length + '剤';
 buildCatView();
 updateStatus();
 </script>
-</body>
-</html>
