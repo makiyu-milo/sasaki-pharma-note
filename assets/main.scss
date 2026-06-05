@@ -26,23 +26,6 @@
   }
 }
 
-// スマホのナビゲーション修正
-@media screen and (max-width: 600px) {
-  // ハンバーガーアイコン（三本線）を見えるように
-  .site-nav .menu-icon > svg,
-  .site-nav .menu-icon > svg path {
-    fill: #424242 !important;
-  }
-  // ドロップダウンのリンク文字を暗い色に（白背景のため）
-  .site-nav .page-link,
-  .site-header .site-nav .page-link {
-    color: #333333 !important;
-  }
-  // ナビ背景を白に
-  .site-nav {
-    background-color: #ffffff !important;
-  }
-}
 
 // テーブルを画面幅に合わせて伸縮させる
 .post-content table {
@@ -54,4 +37,96 @@
 .post-content table th {
   word-break: normal;
   overflow-wrap: break-word;
+}
+
+// ============================================================
+// ダークテーマ
+// ============================================================
+
+// 背景色＋ドットパターン
+body {
+  background-color: #0f172a;
+  background-image: radial-gradient(circle, rgba(255,255,255,0.06) 1px, transparent 1px);
+  background-size: 24px 24px;
+  color: #e2e8f0;
+}
+
+// リンク
+a {
+  color: #60a5fa;
+  &:visited { color: #a78bfa; }
+  &:hover   { color: #93c5fd; }
+}
+
+// 見出し
+h1, h2, h3, h4, h5, h6 {
+  color: #f1f5f9;
+}
+
+// 記事タイトル
+.post-title { color: #f1f5f9; }
+
+// 記事一覧（日付・概要）
+.post-meta  { color: #64748b; }
+.post-link  { color: #93c5fd; }
+.post-list  { border-top-color: #1e293b; li { border-bottom-color: #1e293b; } }
+
+// コンテンツ背景
+.page-content { background: transparent; }
+.wrapper      { background: transparent; }
+
+// 引用ブロック
+blockquote {
+  background-color: #1e293b;
+  border-left-color: #3b82f6;
+  color: #cbd5e1;
+  padding: 10px 16px;
+  border-radius: 0 6px 6px 0;
+}
+
+// コードブロック
+pre, code {
+  background-color: #1e293b;
+  color: #93c5fd;
+  border-color: #334155;
+}
+
+// テーブル（ダーク）
+.post-content table {
+  th {
+    background-color: #1e3a5f;
+    color: #e2e8f0;
+    border-color: #334155;
+  }
+  td {
+    border-color: #334155;
+    color: #e2e8f0;
+  }
+  tr:nth-child(even) td {
+    background-color: #1a2640;
+  }
+}
+
+// フッター
+.site-footer {
+  background-color: #0a0f1a;
+  border-top-color: #1e293b;
+  color: #64748b;
+  a { color: #60a5fa; }
+}
+
+// スマホ：ナビドロップダウンをダーク対応
+@media screen and (max-width: 600px) {
+  .site-nav {
+    background-color: #1e293b !important;
+    border-color: #334155 !important;
+  }
+  .site-nav .page-link,
+  .site-header .site-nav .page-link {
+    color: #e2e8f0 !important;
+  }
+  .site-nav .menu-icon > svg,
+  .site-nav .menu-icon > svg path {
+    fill: #e2e8f0 !important;
+  }
 }
